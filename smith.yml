@@ -2,6 +2,6 @@ smith: v1.0.0
 author: Daryl Clarino
 repository: https://github.com/judedaryl/smith-golang-api
 props:
-  - module_name: 
-      type: string
-      display: module name
+  module_name: 
+    type: string
+    display: module name
