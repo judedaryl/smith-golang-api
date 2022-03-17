@@ -7,5 +7,5 @@ type HealthResponse struct {
 }
 
 func Healthz(c *gin.Context) {
-	c.JSON(200, &HealthResponse{Status: "ok"})
+	c.JSON(200, &HealthResponse{Status: "__health_response__"})
 }

@@ -5,3 +5,6 @@ props:
   module_name: 
     type: string
     display: module name
+  health_response:
+    type: string
+    display: health response
